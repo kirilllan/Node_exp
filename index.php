@@ -1,14 +1,17 @@
 <?php
 //constant, no $ sign anywhere
-define('PI', 3.1415);
+//define('PI', 3.1415); echo PI;
 
 // MATH
 //ceil(),floor(),round(),max(),min(),pow(),sqrt(),pi(),mt_rand()//faster random number
 //is_finite(),is_numeric(),number_format()==truncate to x decimals.//also geom. fns. 
 
 // STRINGS
-printf("%c %d %.2f %s<br>", 65, 65.5, 65.543, 65);//data type change -> c=charCode,d=int,2 decimal place float, str
+//printf("%c %d %.2f %s<br>", 65, 65.5, 65.543, 65);//data type change -> c=charCode,d=int,2 decimal place float, str
 //strlen(),ltrim(),rtrim(),strtoupper(),strtolower(),ucfirst(),substr($,0,1),strpos('ab'),str_replace('yes','no',$)
+
+// ARRAYS
+//sort(),rsort(),asort(),ksort(),arsotr(),krsort(),array_key_exists('',$),in_array('',$)
 ?>
 <!DOCTYPE html>
 <html lang="en">
