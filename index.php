@@ -1,8 +1,12 @@
 <?php
 //constant, no $ sign anywhere
 define('PI', 3.1415);
-//Math functions
-//ceil(),floor(),round(),max(),min(),pow(),sqrt(),pi(),mt_rand()//faster random number,is_finite(),is_numeric().//also geom. fns.
+
+// MATH
+//ceil(),floor(),round(),max(),min(),pow(),sqrt(),pi(),mt_rand()//faster random number
+//is_finite(),is_numeric(),number_format()==truncate to x decimals.//also geom. fns. 
+
+printf("%c %d %.2f %s<br>", 65, 65.5, 65.543, 65);//data type change -> c=charCode,d=int,2 decimal place float, str
 ?>
 <!DOCTYPE html>
 <html lang="en">
