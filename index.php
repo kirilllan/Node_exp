@@ -1,6 +1,8 @@
 <?php
 //constant, no $ sign anywhere
 define('PI', 3.1415);
+//Math functions
+//ceil(),floor(),round(),max(),min(),pow(),sqrt(),pi(),mt_rand()//faster random number,is_finite(),is_numeric().//also geom. fns.
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,5 +15,12 @@ define('PI', 3.1415);
 </head>
 <body>
   <p>PI: <?php echo PI ?></p>
+  <form action="index.php" method="get">
+    <label for="">Your State: </label>
+    <input type="text" name="state"><br>
+    <label for="">Number 1: </label>
+    <input type="text" name="num-1"><br>
+    <input type="text">
+  </form>
 </body>
 </html>
