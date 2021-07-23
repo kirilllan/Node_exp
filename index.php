@@ -1,5 +1,5 @@
 <?php
-//constant, no $ sign
+//constant, no $ sign anywhere
 define('PI', 3.1415);
  ?>
 <!DOCTYPE html>
