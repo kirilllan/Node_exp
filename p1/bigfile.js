@@ -1,3 +1,10 @@
+// --helpers
+//console.log(__dirname)//current directory
+//console.log(__filename)//file name
+//console.log(module)//current module (file)
+//console.log(process)//env where prog being executed
+
+
 // ---- 9-path-module.js
 /* const path = require('path')
 
@@ -103,3 +110,8 @@ customEmitter.on('response', () => {
   console.log(`some other logic.. `);
 })
 customEmitter.emit('response', 'john', 44) */
+
+// --- Stream
+/* const {createReadStream} = require('fs')
+const stream = createReadStream('./content/big.txt', {highWaterMark: 90000, encoding: 'utf8'})
+stream.on('data', result => console.log(result)) */
