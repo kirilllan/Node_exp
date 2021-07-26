@@ -24,6 +24,11 @@ function doMath($x, $y) {
 }
 list($sum, $difference) = doMath(5, 4);
 echo "Sum = $sum<br>"; echo "Difference = $difference<br>";
+function badDivide($n) {
+  if ($n === 0) throw new Exception("Can't divide by 0");
+  return 100 / $n;  
+}
+try {badDivide(0);} catch(Exception $e) {echo $e->getMessage();}
 ?>
 <!DOCTYPE html>
 <html lang="en">
