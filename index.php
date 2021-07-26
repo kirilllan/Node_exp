@@ -12,6 +12,8 @@
 
 // ARRAYS
 //sort(),rsort(),asort(),ksort(),arsotr(),krsort(),array_key_exists('',$),in_array('',$)
+//array_map('double', $list); array_reduce($list, 'mult', 1);
+//array_filter($list, 'isEven'); print_r (human readable arrs);
 
 // FUNCTIONS
 function doMath($x, $y) {
