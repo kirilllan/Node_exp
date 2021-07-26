@@ -12,6 +12,16 @@
 
 // ARRAYS
 //sort(),rsort(),asort(),ksort(),arsotr(),krsort(),array_key_exists('',$),in_array('',$)
+
+// FUNCTIONS
+function doMath($x, $y) {
+  return array(
+    $x + $y,
+    $x - $y
+  );
+}
+list($sum, $difference) = doMath(5, 4);
+echo "Sum = $sum<br>"; echo "Difference = $difference<br>";
 ?>
 <!DOCTYPE html>
 <html lang="en">
