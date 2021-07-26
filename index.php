@@ -29,6 +29,10 @@ function badDivide($n) {
   return 100 / $n;  
 }
 try {badDivide(0);} catch(Exception $e) {echo $e->getMessage();}
+
+// DB
+//localhost/phpmyadmin or localhost:8080/phpmyadmin
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
