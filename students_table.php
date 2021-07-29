@@ -5,6 +5,9 @@ $student_statement = $db->prepare($query_students);
 $student_statement->execute();
 $students = $student_statement->fetchAll();
 $student_statement->closeCursor();
+
+//$query = 'INSERT INTO students(first_name, last_name) VALUES (:first_name, :last_name)';
+//$stm = $db.prepare($query); $stm->bindValue(':first_name', $first_name); $stm->bindValue(':last_name', $last_name);
  ?>
 <!DOCTYPE HTML>
 <html lang="en">
