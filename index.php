@@ -30,8 +30,10 @@ function badDivide($n) {
 }
 try {badDivide(0);} catch(Exception $e) {echo $e->getMessage();}
 
-// DB
-//localhost/phpmyadmin or localhost:8080/phpmyadmin
+// some verifications
+!filter_var($email, FILTER_VALIDATE_EMAIL);
+!preg_match("/^[a-zA-Z0-9 ,#'\/.]{3, 50}$", $street);
+!preg_match("/[a-zA-Z\- ]{3,70]$", $city);
 
 ?>
 <!DOCTYPE html>
