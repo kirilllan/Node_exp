@@ -7,6 +7,7 @@ try {
   $db = new PDO($dsn, DB_USER, DB_PASSWORD);
 } catch(PDOException $e) {
   $err_msg = $e->getMessage();
+  $full_msg = $e;
   include('db_error.php');
   exit();
 }

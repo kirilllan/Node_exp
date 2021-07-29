@@ -7,6 +7,6 @@
 </head>
 <body>
   <h1>█Database Error█</h1>
-  <p><?php echo $err_msg; phpinfo();?></p>
+  <p><?php echo $err_msg; echo $full_msg; phpinfo();?></p>
 </body>
 </html>
