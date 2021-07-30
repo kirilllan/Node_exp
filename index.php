@@ -35,6 +35,9 @@ try {badDivide(0);} catch(Exception $e) {echo $e->getMessage();}
 !preg_match("/^[a-zA-Z0-9 ,#'\/.]{3, 50}$", $street);
 !preg_match("/[a-zA-Z\- ]{3,70]$", $city);
 
+// cookies
+// setcookie("my_cookie", "sample value", time() + 86400 ,"/");//put  - instead of + to delete (it expired, -1day)
+// if (!isset($_COOKIE["my_cookie"])) {"";}
 ?>
 <!DOCTYPE html>
 <html lang="en">
