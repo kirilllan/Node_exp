@@ -38,6 +38,20 @@ try {badDivide(0);} catch(Exception $e) {echo $e->getMessage();}
 // cookies
 // setcookie("my_cookie", "sample value", time() + 86400 ,"/");//put  - instead of + to delete (it expired, -1day)
 // if (!isset($_COOKIE["my_cookie"])) {"";}
+
+// OOP
+class Animal {
+  protected $name;
+  protected $id;
+  public static $number_of_animals = 0;
+  function getName() {
+    return $this->name;
+  }
+  function __construct() {
+    $this->id = rand(1, 1000);
+    Animal::$number_of_animals++;
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
