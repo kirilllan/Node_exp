@@ -15,7 +15,7 @@ $student_statement->closeCursor();
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>PHP Tutorial</title>
+    <title>students table</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
