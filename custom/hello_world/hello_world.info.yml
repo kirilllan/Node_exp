@@ -1,0 +1,7 @@
+name: Hello World
+description: This is simple hello drupal 9 blah blah…
+type: module
+package: custom
+core_version_requirement: ^9.0
+dependencies: 
+  #-drupal: views
